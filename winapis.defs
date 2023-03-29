@@ -1,0 +1,11 @@
+kernel32.dll->LoadLibraryA
+kernel32.dll->VirtualAlloc
+kernel32.dll->ExitProcess
+user32.dll->MessageBoxA
+wininet.dll->InternetOpenA
+wininet.dll->InternetConnectA
+wininet.dll->HttpOpenRequestA
+wininet.dll->HttpSendRequestA
+wininet.dll->InternetReadFile
+wininet.dll->InternetCloseHandle
+msvcrt.dll->printf
