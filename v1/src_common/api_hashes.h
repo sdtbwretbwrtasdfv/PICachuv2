@@ -1,0 +1,16 @@
+#pragma once
+/* This file creates automaticly, do not change it manualy */
+/* seed1 : 34367, seed2: 5*/
+#define H_LIB_KERNEL32 0x5efb06af
+#define H_LIB_MSVCRT 0x226ef128
+#define H_LIB_WININET 0x11189567
+#define H_API_LOADLIBRARYA 0x4e7a0935
+#define H_API_VIRTUALPROTECT 0x9f10047
+#define H_API_PRINTF 0xfaee2072
+#define H_API_INTERNETOPENA 0xbaaa901b
+#define H_API_INTERNETCONNECTA 0xb6730693
+#define H_API_HTTPOPENREQUESTA 0x631c5f1b
+#define H_API_HTTPSENDREQUESTA 0x370baf3
+#define H_API_VIRTUALALLOC 0x26e627d1
+#define H_API_INTERNETREADFILE 0x6d6f33e4
+#define H_API_INTERNETCLOSEHANDLE 0xce9b11ea

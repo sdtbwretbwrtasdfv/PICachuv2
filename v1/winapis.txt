@@ -1,0 +1,11 @@
+kernel32.dll->LoadLibraryA<-HMODULE<<(LPCSTR)
+kernel32.dll->VirtualProtect<-BOOL<<(LPVOID, SIZE_T, DWORD, PDWORD)
+msvcrt.dll->printf<-INT<<(LPCSTR, ...)
+
+wininet.dll->InternetOpenA<-HINTERNET<<(LPCSTR, DWORD, LPCSTR, LPCSTR, DWORD)
+wininet.dll->InternetConnectA<-HINTERNET<<(HINTERNET, LPCSTR, INTERNET_PORT, LPCSTR, LPCSTR, DWORD, DWORD, DWORD_PTR)
+wininet.dll->HttpOpenRequestA<-HINTERNET<<(HINTERNET, LPCSTR, LPCSTR, LPCSTR, LPCSTR, LPCSTR*, DWORD, DWORD_PTR)
+wininet.dll->HttpSendRequestA<-BOOL<<(HINTERNET, LPCSTR, DWORD, LPVOID, DWORD)
+kernel32.dll->VirtualAlloc<-LPVOID<<(LPVOID, SIZE_T, DWORD, DWORD)
+wininet.dll->InternetReadFile<-BOOL<<(HINTERNET, LPVOID, DWORD, LPDWORD)
+wininet.dll->InternetCloseHandle<-BOOL<<(HINTERNET)
